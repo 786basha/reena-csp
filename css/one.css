@@ -1,0 +1,36 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+section{
+    padding: 20px;
+}
+
+section .img{
+    display: flex;
+}
+.img .mg img{
+    width: 550px;
+   height: 550px;
+}
+section h2{
+    text-align: center;
+    margin: 20px;
+}
+.img .txt{
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:480px) {
+    .img .mg{
+        margin: auto;
+    }
+    .img .mg img{
+        width: 320px;
+        height: 560px;
+    }
+    .img{
+        flex-direction: column;
+    }
+}
