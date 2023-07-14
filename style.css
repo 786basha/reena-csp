@@ -1,120 +1,18 @@
-/* Reset some default styles for consistency */
-body, h1, h2, h3, p, ul, form {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
-  
-  header {
-    background-color: #333;
-    padding: 20px;
-    color: #fff;
-  }
-  
-  h1 {
-    font-size: 28px;
-  }
-  
-  nav {
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  a:hover {
-    background-color: #555;
-  }
-  
-  .hero-section {
-    padding: 40px;
-    text-align: center;
-    background-color: #f8b500;
-    color: #fff;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  
-  .cta-button:hover {
-    background-color: #555;
-  }
-  
-  .about-section, .contact-section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #fff;
-    color: #333;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #555;
-  }
-  
-  footer {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-    color: #fff;
-  }
-  
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/error-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width:480px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('/error-mobile.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
