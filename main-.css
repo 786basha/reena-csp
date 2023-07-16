@@ -126,15 +126,16 @@ body, h1, h2, h3, p, ul, form {
     background-position: center;
     background-size: cover;
   }
+  header h1{
+    text-align: center;
+  }
+  nav{
+    background-color: #7fa5df;
+  }
   
 
   @media only screen and (max-width:550px) {
-    header h1{
-      text-align: center;
-    }
-    nav{
-      background-color: #7fa5df;
-    }
+  
     #home-img{
       margin: auto;
       border-radius: 10px;
