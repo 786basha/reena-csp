@@ -117,4 +117,31 @@ body, h1, h2, h3, p, ul, form {
     text-align: center;
     color: #fff;
   }
+  #home-img{
+    margin: auto;
+    border-radius: 10px;
+    width: 90vw;
+    height: 55vh;
+    background-image: url('/img/2.jpg');
+    background-position: center;
+    background-size: cover;
+  }
   
+
+  @media only screen and (max-width:480px) {
+    header h1{
+      text-align: center;
+    }
+    nav{
+      background-color: #7fa5df;
+    }
+    #home-img{
+      margin: auto;
+      border-radius: 10px;
+      width: 85vw;
+      height: 75vh;
+      background-image: url('/img/3.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+  }
