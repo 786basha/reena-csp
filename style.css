@@ -52,13 +52,22 @@ nav .links a{
 .boxtxt h3 span{
     font-family:'Courier New', Courier, monospace;
 }
-.boxtxt button{
+.boxtxt a button{
     padding: 10px 20px;
     opacity: 0.8;
-    margin-top: 2%;
+    margin-top: 2vh;
+    cursor: pointer;
     background-color: lightblue;
     border-radius: 7px;
     font-weight: bold;
+}
+.botm{
+    width: 100vw;
+    display: flex;align-items: center;justify-content: center;
+}
+.botm button{
+    padding: 10px 20px;margin-bottom: 10px;cursor: pointer;
+
 }
 #q1{
     text-align: center;
@@ -86,6 +95,7 @@ section h2{
     }
     .box .img{
     background-image: url('/img/3.jpg');
+    opacity: 0.8;
     background-position: center;
     background-size: cover;
     margin: 2% auto ;
