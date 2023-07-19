@@ -1,18 +1,118 @@
-body{
+*{
+    padding: 0;margin: 0;box-sizing: border-box;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+.p{
     width: 100vw;
-    height: 100vh;
-    background-image: url('/error-desktop.jpg');
+    height: fit-content;
+}
+
+header .logo{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+header nav{
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+}
+nav .links a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.box .img{
+    background-image: url('/img/2.jpg');
+    margin: 2% auto ;
+    width: 90vw;
+    height: 60vh;
+}
+.boxtxt{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.boxtxt h3{
+    margin-top: 2%;
+}
+.boxtxt h3 b{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxtxt h3 span{
+    font-family:'Courier New', Courier, monospace;
+}
+.boxtxt button{
+    padding: 10px 20px;
+    opacity: 0.8;
+    margin-top: 2%;
+    background-color: lightblue;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#q1{
+    text-align: center;
+    margin: auto;
+    width: 75vw;
+    padding: 10px;
+    font-size: 18px;
+}
+main {
+    margin: auto;
+    width: 90vw;
+    height: fit-content;
+}
+
+main section{
+    margin: 10px;
+    text-align: center;
+}
+section h2{
+    padding: 10px;
+}
+@media only screen and (max-width:480px) {
+    header .logo h2{
+        font-size: 30px;
+    }
+    .box .img{
+    background-image: url('/img/3.jpg');
     background-position: center;
     background-size: cover;
-}
-
-@media only screen and (max-width:480px) {
-    body{
-        width: 100vw;
-        height: 100vh;
-        background-image: url('/error-mobile.jpeg');
-        background-position: center;
-        background-size: cover;
+    margin: 2% auto ;
+    width: 9
+    0vw;
+    height: 90vh;
     }
-}
+    .boxtxt{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .boxtxt h3{
+        /* margin-top: 20vh; */
+        color: aliceblue;
+    }
+    .boxtxt h3 b{
+        text-shadow: 5px 5px 10px rgb(37, 12, 12);
+        font-size: 35px;
+    }
+    .boxtxt button{
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+    #q1{
+        padding: 20px;
+        text-align: center;font-size: 17px;
+    }
 
+}
